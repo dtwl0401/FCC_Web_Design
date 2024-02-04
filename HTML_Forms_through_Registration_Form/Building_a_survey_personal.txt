@@ -1,0 +1,71 @@
+** start of HTML **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <p id="description">Thank you for taking the time to help us improve the platform </p>
+  <form id="survey-form">
+     <label id="name-label">Name 
+       <input id="name" type="text" placeholder="Enter your name" required /></label>
+       <label id="email-label">Email 
+       <input id="email" type="email" placeholder="Enter your email" required /></label>
+       <label id="number-label">Age (optional )
+       <input id="number" type="number" placeholder="Age" min="13" max="120"/></label>
+  <label>Current role?
+    <select id="dropdown">
+      <option>Student</option>
+      <option>Full time</option>
+      <option>Part time</option>
+      <option>Prefer not to say</option>
+    </select>
+  </label>
+  <fieldset>
+    <legend>Would you recommend to a friend?</legend>
+    <label><input name="reco" type="radio" class="inline" value="d" checked/>Definitely</label>
+    <label><input name="reco" type="radio" class="inline" value="m"/>Maybe</label>
+    <label><input name="reco" type="radio" class="inline" value="n"/>Not Sure</label>
+  </fieldset>
+  <fieldset class="check">
+    <legend>Improvements you want to see</legend>
+    <label><input class="inline" type="checkbox" value="1"/>Data Viz</label>
+    <label><input class="inline" type="checkbox" value="2"/>Cyber Security</label>
+    <label><input class="inline" type="checkbox" value="3"/>Challenges</label>
+  </fieldset>
+  <label>Comments</label>
+  <textarea placeholder="Enter comments here"></textarea>
+  <input id="submit" type="submit" value="Submit" />
+  </form>
+</html>
+
+** end of HTML **
+
+** start of CSS **
+
+input[type=text], input[type=number],
+input[type=email] {
+  display: block;
+}
+select {
+  display: block;
+}
+fieldset {
+  border: none;
+  padding-left: 0px;
+  margin-left: -1%;
+}
+textarea {
+  display: block;
+}
+.check label {
+  display: block;
+}
+.check .inline {
+  display: inline-block;
+}
+
+** end of CSS **
+
