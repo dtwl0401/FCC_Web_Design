@@ -1,0 +1,43 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="stylesheet" href="styles.css">
+  </header>
+  <main id="main">
+    <h1 id="title">Dr. Norman Borlaug</h1>
+    <div id="img-div">
+      <img id="image" href="https://achievement.org/wp-content/uploads/2016/04/2-wordpress-Borlaug-Norman-AP-701021026-scaled.jpg"/>
+      <div id="img-caption">
+        <p id="img-caption">Picture of Dr. Norman Borlaug in his early days</p>
+      </div>
+    </div>
+    <div id="tribute-info">
+      <p>Born in Iowa, he is a dedicated scientist to help increase crop yield in the fight against war hunger.</p>
+    </div>
+    <div id="tribute">
+      <h3>Read more <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">here</a></h3>
+    </div>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div {
+  text-align: center;
+  height: 100vh;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+
+** end of undefined **
+
