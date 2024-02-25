@@ -1,0 +1,85 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS50 Manual Page</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <main id="main-doc">
+    <section class="main-section" id="CS50_Manual_Pages">
+      <header>
+        <h1>CS50 Manual Pages</h1>
+      </header>
+      <nav id="navbar">
+  <header>
+    <h1>Menu</h1>
+  </header>
+  <ul>
+    <li><a class="nav-link" href="#CS50_Manual_Pages">CS50 Manual Pages</a></li>
+    <li><a class="nav-link" href="#math">math</a></li>
+    <li><a class="nav-link" href="#stdio">stdio</a></li>
+    <li><a class="nav-link" href="#stdlib">stdlib</a></li>
+    <li><a class="nav-link" href="#string">string</a></li>
+  </ul>
+</nav>
+
+    </section>
+
+  <body>
+    <section class="main-section" id="math">
+      <header>
+        <h2>math</h2>
+      </header>
+      <p>round</p>
+      <code>round(49.9)</code>
+      <p>sqrt</p>
+      <p>pow</p>
+    </section>
+
+    <section class="main-section" id="stdio">
+      <header>
+        <h2>stdio<h2>
+      </header>
+      <p>scanf</p>
+      <code>scanf("%i", &n)</code>
+      <p>fread</p>
+    </section>
+
+    <section class="main-section" id="stdlib">
+      <header>
+        <h2>stdlib</h2>
+      </header>
+      <p>atof</p>
+      <code>atof("50.0")</code>
+      <p>atoi</p>
+      <code>atoi("50")</code>
+      <p>malloc</p>
+    </section>
+
+    <section class="main-section" id="string">
+      <header>
+        <h2>string</h2>
+      </header>
+      <p>strcmp</p>
+      <code>strcmp(s1, s2) == 0</code>
+      <p>strlen</p>
+      </section>
+  </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+** end of undefined **
+
