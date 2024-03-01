@@ -1,0 +1,85 @@
+** start of undefined **
+
+<!--Basketball Landing Page-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <main>
+    <body>
+      <header id="header">
+        <img id="header-img" src="https://www.istockphoto.com/photo/basketball-gm462875267-32530258?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fbasketball%2F&utm_term=basketball" alt="basketball image">
+
+        <nav id="nav-bar">
+        <p>Brands</p>
+        <ul>
+          <li><a class="nav-link" href="#molten">Molten</a></li>
+          <li><a class="nav-link" href="#spalding">Spalding</a></li>
+          <li><a class="nav-link" href="#others">Others</a></li>
+        </ul>
+      </nav>
+     </header>
+
+      <video id="video" src="https://www.google.com"></video>
+      <hr></hr>
+     <section class="molten" id="molten">
+        <h2>MOLTEN</h2>
+        <p>Founded in 1958, Molten is the world's largest ball and sports equipment manufacturer. Molten USA, Inc. was established in 1983 to bring these quality sports balls to the U.S. marketplace. Originally located in Southern California, Molten USA moved to northern Nevada in 1988 and continues to call the Reno–Sparks area its home.</p>
+
+        <p>Only six years after their founding, Molten basketballs, volleyballs, and soccer balls were the official balls of the 1964 Tokyo Olympics. Molten has been the official basketball for the Olympic Games in Los Angeles (1984), Seoul (1988), Barcelona (1992), Atlanta (1996), Sydney (2000), Athens (2004), Beijing (2008), London (2012) and Rio (2016). Molten basketballs have also been the official ball for the International Basketball Federation (FIBA) for the past 30 years culminating in the Men's and Women's World Basketball Championship. This championship was held in the U.S. for the first time in Indianapolis in August 2002.</p>
+      </section>
+      <hr></hr>
+      <section class="spalding" id="spalding">
+       <h2>SPALDING</h2>
+       <p>The company was founded in 1876 when Albert Spalding was a pitcher and manager of an early professional baseball team in Chicago, the Chicago White Stockings. The company standardized early baseballs and developed the modern baseball bat, a derivation of the cricket bat.</p>
+
+      </p>The Spalding "League Ball" was adopted by the National League and used by the league since 1880, as well as by the American Association of Professional Base Ball Clubs for the seasons of 1892–1896. It was manufactured by A. G. Spalding & Bros., Chicago, New York & Philadelphia and sold for $1.50 in 1896.[circular reference] In 1892, Spalding acquired rival sporting goods companies Wright & Ditson and A. J. Reach.</p>
+      </section>
+      <hr></hr>
+      <section class="others" id="others">
+        <h5>Work in Progress!</h5>
+      </section>
+      <hr></hr>
+      <section class="form">
+        <h3>Contact us!</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Email: </label>
+          <input id="email" type="email" placeholder="someone@abc.com" name="email"/>
+          <input id="submit" type="submit" value="Submit!"></submit>
+        </form>
+      </section>
+    </body>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.molten, .spalding, .others {
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.others {
+  color: red;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 520px) {
+  .email {
+    font-size: 1.8rem;
+  }
+}
+
+** end of undefined **
+
